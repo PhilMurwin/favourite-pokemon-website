@@ -5,6 +5,7 @@
 		<link rel="stylesheet" href="pokemon.css" >
 		
 		<!-- Scripts -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script type="text/javascript" src="js/type.js"></script>
 		<script type="text/javascript" src="js/pokemon.js"></script>
 	
@@ -12,21 +13,30 @@
 			function fillList(gen, type, id) {
 				var choosediv = document.getElementById("choosediv");
 				var innerHTML = "<br/>";
-				for (i = 0; i < pokemon.length; i++) {
+				
+				//Build Pokemon Choose List
+				var chooseList = [];
+				
+				for (i = 0; i < pokemon.length; i++){
 					if (pokemon[i].gen == gen)
 						for (t = 0; t < types.length; t++) {
 							if (types[t].name === type && pokemon[i].type === types[t].name) {
-								innerHTML += "<button onclick=\"setPicture('" + id + "','" + pokemon[i].img + "');\">" + pokemon[i].name + "</button><br/>";
+								chooseList.push(pokemon[i]);
 							}
 						}
+				}				
+				
+				//Build ChooseDiv
+				for (p = 0; p < chooseList.length; p++) {
+					innerHTML += "<button onclick=\"setPicture('" + id + "','" + chooseList[p].img + "');\">" + chooseList[p].name + "</button><br/>";
 				}
+
 				choosediv.innerHTML = innerHTML;
 			}
 
 			function setPicture(id, imglink) {
 				document.getElementById(id).innerHTML = "<img src=\"" + imglink + "\">";
 			}
-
 		</script>
 	</head>
 
@@ -37,8 +47,9 @@
 				document.write("<tr>");
 				for (t = 0; t < types.length; t++) {
 					document.write("<td>");
-					id = "gen" + g + "type" + types[t].name;
-					document.write("<button class=\"secret\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" />");
+					gen = "gen" + g;
+					id = gen + "type" + types[t].name;
+					document.write("<button class=\"secret " + gen + " " + types[t].name + "\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" />");
 					document.write("</td>");
 				}
 				document.write("</tr>");

@@ -3,13 +3,13 @@ body {
 	background-repeat: no-repeat;
 }
 td {
-	height: 93px;
-	width: 93px;
-	padding-right: 2px;
+	height: 95px;
+	width: 95px;
+	padding: 0px;
 }
 img {
-	height: 93px;
-	width: 93px;
+	height: 92px;
+	width: 92px;
 }
 .secret {
 	height: 92px;

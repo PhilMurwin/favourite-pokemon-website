@@ -36,4 +36,7 @@ var types = [{
 				"name": "Water"
 			}, {
 				"name": "Legendary"
-			}];
+			}, {
+				"name": "All"
+			}
+];
