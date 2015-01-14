@@ -17,25 +17,42 @@
 				//Build Pokemon Choose List
 				var chooseList = [];
 				
-				for (i = 0; i < pokemon.length; i++){
-					if (pokemon[i].gen == gen)
-						for (t = 0; t < types.length; t++) {
-							if (types[t].name === type && pokemon[i].type === types[t].name) {
-								chooseList.push(pokemon[i]);
+				if (type !== "All")
+				{
+					//Build the choose list for all pokemon of gen and type
+					for (i = 0; i < pokemon.length; i++){
+						if (pokemon[i].gen == gen)
+							for (t = 0; t < types.length; t++) {
+								if (types[t].name === type && pokemon[i].type === types[t].name) {
+									chooseList.push(pokemon[i]);
+								}
 							}
-						}
-				}				
+					}
+				}
+				else
+				{
+					// Get all selected pokemon except the All category
+					var genList = $(".gen"+ gen + ":not('.All') > img");
+					
+					//Build the choose list for the selected gen pokemon
+					for(g=0; g < genList.length; g++)
+					{
+						chooseList.push({
+						"img": genList[g].src,
+						"name": "" + genList[g].dataset.pokename + "" });
+					}
+				}
 				
 				//Build ChooseDiv
 				for (p = 0; p < chooseList.length; p++) {
-					innerHTML += "<button onclick=\"setPicture('" + id + "','" + chooseList[p].img + "');\">" + chooseList[p].name + "</button><br/>";
+					innerHTML += "<button onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\">" + chooseList[p].name + "</button><br/>";
 				}
 
 				choosediv.innerHTML = innerHTML;
 			}
 
-			function setPicture(id, imglink) {
-				document.getElementById(id).innerHTML = "<img src=\"" + imglink + "\">";
+			function setPicture(id, imglink, pokename) {
+				document.getElementById(id).innerHTML = "<img data-pokename=\"" + pokename + "\" src=\"" + imglink + "\">";
 			}
 		</script>
 	</head>
