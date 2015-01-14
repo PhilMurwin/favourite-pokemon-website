@@ -1,0 +1,32 @@
+body {
+	background-image: url("./background.png");
+	background-repeat: no-repeat;
+}
+td {
+	height: 93px;
+	width: 93px;
+	padding-right: 2px;
+}
+img {
+	height: 93px;
+	width: 93px;
+}
+.secret {
+	height: 92px;
+	width: 92px;
+	background: transparent;
+	border: none !important;
+	font-size: 0;
+}
+table {
+	margin-top: 96px;
+	margin-left: 12px;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+img {
+	display: block
+}
+div {
+	text-align: center;
+}
