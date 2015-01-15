@@ -91,82 +91,23 @@ img {
 	font-size: 14pt;
 }
 
-div.Bug {
-	background-color: #CAD579;
-}
-
-div.Dark {
-	background-color: #A89A91;
-}
-
-div.Dragon {
-	background-color: #A986FA;
-}
-
-div.Electric {
-	background-color: #FAE282;
-}
-
-div.Fairy {
-	background-color: #F5C1CD;
-}
-
-div.Fighting {
-	background-color: #DA827E;
-}
-
-div.Fire {
-	background-color: #F6B283;
-}
-
-div.Flying {
-	background-color: #CABCF7;
-}
-
-div.Ghost {
-	background-color: #A99AC1;
-}
-
-div.Grass {
-	background-color: #AEDD95;
-}
-
-div.Ground {
-	background-color: #EDD9A4;
-}
-
-div.Ice {
-	background-color: #C1E8E7;
-}
-
-div.Normal {
-	background-color: #CACAAE;
-}
-
-div.Poison {
-	background-color: #C68CC6;
-}
-
-div.Psychic {
-	background-color: #FA9AB6;
-}
-
-div.Rock {
-	background-color: #D4C687;
-}
-
-div.Steel {
-	background-color: #D5D4E2;
-}
-
-div.Water {
-	background-color: #A3BCF5;
-}
-
-div.Legendary{
-	background-color: #A5C6BD;
-}
-
-div.All {
-	background-color: #84878C;
-}
+.pkmnGenType.Bug { background-color: #CAD579; }
+.pkmnGenType.Dark { background-color: #A89A91; }
+.pkmnGenType.Dragon { background-color: #A986FA; }
+.pkmnGenType.Electric { background-color: #FAE282; }
+.pkmnGenType.Fairy { background-color: #F5C1CD; }
+.pkmnGenType.Fighting { background-color: #DA827E; }
+.pkmnGenType.Fire { background-color: #F6B283; }
+.pkmnGenType.Flying { background-color: #CABCF7; }
+.pkmnGenType.Ghost { background-color: #A99AC1; }
+.pkmnGenType.Grass { background-color: #AEDD95; }
+.pkmnGenType.Ground { background-color: #EDD9A4; }
+.pkmnGenType.Ice { background-color: #C1E8E7; }
+.pkmnGenType.Normal { background-color: #CACAAE; }
+.pkmnGenType.Poison { background-color: #C68CC6; }
+.pkmnGenType.Psychic { background-color: #FA9AB6; }
+.pkmnGenType.Rock { background-color: #D4C687; }
+.pkmnGenType.Steel { background-color: #D5D4E2; }
+.pkmnGenType.Water { background-color: #A3BCF5; }
+.pkmnGenType.Legendary{ background-color: #A5C6BD; }
+.pkmnGenType.All { background-color: #84878C; }
