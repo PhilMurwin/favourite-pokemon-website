@@ -3,17 +3,16 @@
 	<head>
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="pokemon.css" >
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
 		
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="js/type.js"></script>
 		<script type="text/javascript" src="js/pokemon.js"></script>
 	
 		<script type='text/javascript'>		
 			function fillList(gen, type, id) {
-				var choosediv = document.getElementById("choosediv");
-				var innerHTML = "<br/>";
-				
 				//Build Pokemon Choose List
 				var chooseList = [];
 				
@@ -43,30 +42,110 @@
 					}
 				}
 				
-				//Build ChooseDiv
+				//Build ChooseDiv innerHTML
+				var maxCols = 3;
+				var colCount = 0;
+				var innerHTML = "";
+				
 				for (p = 0; p < chooseList.length; p++) {
-					innerHTML += "<button onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\">" + chooseList[p].name + "</button><br/>";
+					colCount++;
+					innerHTML += "<div class=\"btnChoose round\" onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\"><img src=\"" + chooseList[p].img + "\">" + chooseList[p].name + "</div>";
+					
+					if (colCount === maxCols)
+					{
+						innerHTML += "<br/>";
+						colCount = 0;
+					}
 				}
-
-				choosediv.innerHTML = innerHTML;
+				
+				if (innerHTML === "")
+				{
+					innerHTML = "None";
+				}
+				else
+				{
+					innerHTML += "<div class=\"btnChoose round\" onclick=\"clearPicture('" + id + "');\"><img src=\"images/delete.png\">Remove</div>";
+				}
+				
+				// Place the ChooseDiv in a dialog near the gen type cell
+				$(".pkmnselect").html(innerHTML).dialog({
+					title: getGenTitle(gen) + " - " + type,
+					width: 400,
+					position: { my: "left top", at: "right top", of: "#" + id }
+				});
 			}
 
 			function setPicture(id, imglink, pokename) {
 				document.getElementById(id).innerHTML = "<img data-pokename=\"" + pokename + "\" src=\"" + imglink + "\">";
+				$(".pkmnselect").dialog("close");
 			}
+			
+			function clearPicture(id)
+			{
+				$("#" + id).html("");
+				$(".pkmnselect").dialog("close");
+			}
+			
+			function getGenTitle(genNum)
+			{
+				var genTitle = "Gen ";
+				
+				switch(genNum)
+				{
+					case 1: genTitle += "I"; break;
+					case 2: genTitle += "II"; break;
+					case 3: genTitle += "III"; break;
+					case 4: genTitle += "IV"; break;
+					case 5: genTitle += "V"; break;
+					case 6: genTitle += "VI"; break;
+				}
+				
+				return genTitle;
+			}
+			
+			$(function() {
+				$('html').bind('click', function(e) {
+					if($('.pkmnselect').dialog('isOpen')
+                        && !$(e.target).is('.ui-dialog, button')
+						&& !$(e.target).is('.ui-dialog, img')
+                        && !$(e.target).closest('.ui-dialog').length)
+					{
+						jQuery('.pkmnselect').dialog('close');
+					}
+                });
+			});
 		</script>
 	</head>
 
 	<body>
+		<div class="title">FAV POKEMON OF EACH GEN AND TYPE MEME</div>
+		<div class="credit">
+			<div class="author"><span>CREATED BY ???</span></div>
+			<div class="templateAuthor"><span>TEMPLATE BY TARITOONS</span></div>
+			<div class="filledBy"><span>FILLED BY</span><span>.........................</span></div>
+		</div>
 		<script>
 			document.write("<table>");
+			document.write("<tr class=\"typeHeader\">");
+			document.write("<td class=\"typeHeader\"></td>");
+			for (t=0; t < types.length; t++) {
+				document.write("<td class=\"typeHeader\">");
+					document.write("<div class=\"typeHeader\">" + types[t].name + "</div>");
+				document.write("</td>");
+			}
+			document.write("</tr>");
+			
 			for (g = 1; g <= 6; g++) {
 				document.write("<tr>");
+				document.write("<td class=\"genTitle\">");
+				document.write("<div class=\"rotate genTitle\">" + getGenTitle(g) + "</div>");
+				document.write("</td>");
+
 				for (t = 0; t < types.length; t++) {
 					document.write("<td>");
 					gen = "gen" + g;
 					id = gen + "type" + types[t].name;
-					document.write("<button class=\"secret " + gen + " " + types[t].name + "\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" />");
+					document.write("<div class=\"round pkmnGenType " + types[t].name + "\"><button class=\"secret round " + gen + " " + types[t].name + "\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" /></div>");
 					document.write("</td>");
 				}
 				document.write("</tr>");
@@ -76,6 +155,9 @@
 			document.write("</div>");
 
 		</script>
+
+	<div class="pkmnselect"></div>
+
 	</body>
 
 </html>
