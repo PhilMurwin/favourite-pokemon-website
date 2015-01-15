@@ -102,7 +102,7 @@
 					document.write("<td>");
 					gen = "gen" + g;
 					id = gen + "type" + types[t].name;
-					document.write("<div class=\"round " + types[t].name + "\"><button class=\"secret " + gen + " " + types[t].name + "\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" /></div>");
+					document.write("<div class=\"round pkmnGenType " + types[t].name + "\"><button class=\"secret " + gen + " " + types[t].name + "\" id=" + id + " onclick=\"fillList(" + g + ",'" + types[t].name + "','" + id + "');\" /></div>");
 					document.write("</td>");
 				}
 				document.write("</tr>");
@@ -112,6 +112,9 @@
 			document.write("</div>");
 
 		</script>
+
+	<div class="pkmnselect"></div>
+
 	</body>
 
 </html>
