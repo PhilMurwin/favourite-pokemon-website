@@ -94,6 +94,17 @@
 				
 				return genTitle;
 			}
+			
+			$(function() {
+				$('html').bind('click', function(e) {
+					if(jQuery('.pkmnselect').dialog('isOpen')
+                        && !jQuery(e.target).is('.ui-dialog, button')
+                        && !jQuery(e.target).closest('.ui-dialog').length)
+					{
+						jQuery('.pkmnselect').dialog('close');
+					}
+                });
+			});
 		</script>
 	</head>
 
