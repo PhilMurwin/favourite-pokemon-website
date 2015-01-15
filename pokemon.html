@@ -13,8 +13,6 @@
 	
 		<script type='text/javascript'>		
 			function fillList(gen, type, id) {
-				var choosediv = document.getElementById("choosediv");
-				
 				//Build Pokemon Choose List
 				var chooseList = [];
 				
@@ -51,7 +49,7 @@
 				
 				for (p = 0; p < chooseList.length; p++) {
 					colCount++;
-					innerHTML += "<div class=\"btnChoose round\" onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\"><img class=\"pkmnimg\" src=\"" + chooseList[p].img + "\">" + chooseList[p].name + "</div>";
+					innerHTML += "<div class=\"btnChoose round\" onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\"><img src=\"" + chooseList[p].img + "\">" + chooseList[p].name + "</div>";
 					
 					if (colCount === maxCols)
 					{
@@ -64,6 +62,10 @@
 				{
 					innerHTML = "None";
 				}
+				else
+				{
+					innerHTML += "<div class=\"btnChoose round\" onclick=\"clearPicture('" + id + "');\"><img src=\"images/delete.png\">Remove</div>";
+				}
 				
 				// Place the ChooseDiv in a dialog near the gen type cell
 				$(".pkmnselect").html(innerHTML).dialog({
@@ -75,6 +77,12 @@
 
 			function setPicture(id, imglink, pokename) {
 				document.getElementById(id).innerHTML = "<img data-pokename=\"" + pokename + "\" src=\"" + imglink + "\">";
+				$(".pkmnselect").dialog("close");
+			}
+			
+			function clearPicture(id)
+			{
+				$("#" + id).html("");
 				$(".pkmnselect").dialog("close");
 			}
 			
@@ -97,9 +105,10 @@
 			
 			$(function() {
 				$('html').bind('click', function(e) {
-					if(jQuery('.pkmnselect').dialog('isOpen')
-                        && !jQuery(e.target).is('.ui-dialog, button')
-                        && !jQuery(e.target).closest('.ui-dialog').length)
+					if($('.pkmnselect').dialog('isOpen')
+                        && !$(e.target).is('.ui-dialog, button')
+						&& !$(e.target).is('.ui-dialog, img')
+                        && !$(e.target).closest('.ui-dialog').length)
 					{
 						jQuery('.pkmnselect').dialog('close');
 					}
