@@ -97,6 +97,10 @@ img {
 	height: 110px;
 	display: inline-block;
 	text-align: center;
+	background-color: #F2F2F6;
+}
+
+.btnChoose:hover{
 	background-color: #D5D4E2;
 }
 
