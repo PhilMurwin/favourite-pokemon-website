@@ -3586,17 +3586,7 @@ var pokemon = [{
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/479.png",
 	"name": "Rotom",
-	"type": "Electric",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
-	"name": "Rotom",
 	"type": "Flying",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
-	"name": "Rotom",
-	"type": "Electric",
 	"gen": "4"
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/479.png",
@@ -3606,27 +3596,12 @@ var pokemon = [{
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/479.png",
 	"name": "Rotom",
-	"type": "Electric",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
-	"name": "Rotom",
 	"type": "Fire",
 	"gen": "4"
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/479.png",
 	"name": "Rotom",
-	"type": "Electric",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
-	"name": "Rotom",
 	"type": "Ice",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
-	"name": "Rotom",
-	"type": "Electric",
 	"gen": "4"
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/479.png",
@@ -4872,11 +4847,6 @@ var pokemon = [{
 	"img": "http://www.serebii.net/xy/pokemon/648.png",
 	"name": "Meloetta",
 	"type": "Psychic",
-	"gen": "5"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/648.png",
-	"name": "Meloetta",
-	"type": "Normal",
 	"gen": "5"
 }, {
 	"img": "http://www.serebii.net/xy/pokemon/648.png",
