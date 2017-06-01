@@ -4,18 +4,18 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="pokemon.css" >
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
-		
+
 		<!-- Scripts -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 		<script type="text/javascript" src="js/type.js"></script>
 		<script type="text/javascript" src="js/pokemon.js"></script>
-	
-		<script type='text/javascript'>		
+
+		<script type='text/javascript'>
 			function fillList(gen, type, id) {
 				//Build Pokemon Choose List
 				var chooseList = [];
-				
+
 				if (type !== "All")
 				{
 					//Build the choose list for all pokemon of gen and type
@@ -32,7 +32,7 @@
 				{
 					// Get all selected pokemon except the All category
 					var genList = $(".gen"+ gen + ":not('.All') > img");
-					
+
 					//Build the choose list for the selected gen pokemon
 					for(g=0; g < genList.length; g++)
 					{
@@ -41,23 +41,23 @@
 						"name": "" + genList[g].dataset.pokename + "" });
 					}
 				}
-				
+
 				//Build ChooseDiv innerHTML
 				var maxCols = 3;
 				var colCount = 0;
 				var innerHTML = "";
-				
+
 				for (p = 0; p < chooseList.length; p++) {
 					colCount++;
 					innerHTML += "<div class=\"btnChoose round\" onclick=\"setPicture('" + id + "','" + chooseList[p].img + "','" + chooseList[p].name + "');\"><img src=\"" + chooseList[p].img + "\">" + chooseList[p].name + "</div>";
-					
+
 					if (colCount === maxCols)
 					{
 						innerHTML += "<br/>";
 						colCount = 0;
 					}
 				}
-				
+
 				if (innerHTML === "")
 				{
 					innerHTML = "None";
@@ -66,7 +66,7 @@
 				{
 					innerHTML += "<div class=\"btnChoose round\" onclick=\"clearPicture('" + id + "');\"><img src=\"images/delete.png\">Remove</div>";
 				}
-				
+
 				// Place the ChooseDiv in a dialog near the gen type cell
 				$(".pkmnselect").html(innerHTML).dialog({
 					title: getGenTitle(gen) + " - " + type,
@@ -79,17 +79,17 @@
 				document.getElementById(id).innerHTML = "<img data-pokename=\"" + pokename + "\" src=\"" + imglink + "\">";
 				$(".pkmnselect").dialog("close");
 			}
-			
+
 			function clearPicture(id)
 			{
 				$("#" + id).html("");
 				$(".pkmnselect").dialog("close");
 			}
-			
+
 			function getGenTitle(genNum)
 			{
 				var genTitle = "Gen ";
-				
+
 				switch(genNum)
 				{
 					case 1: genTitle += "I"; break;
@@ -98,11 +98,12 @@
 					case 4: genTitle += "IV"; break;
 					case 5: genTitle += "V"; break;
 					case 6: genTitle += "VI"; break;
+					case 7: genTitle += "VII"; break;
 				}
-				
+
 				return genTitle;
 			}
-			
+
 			$(function() {
 				$('html').bind('click', function(e) {
 					if($('.pkmnselect').dialog('isOpen')
@@ -134,8 +135,8 @@
 				document.write("</td>");
 			}
 			document.write("</tr>");
-			
-			for (g = 1; g <= 6; g++) {
+
+			for (g = 1; g <= 7; g++) {
 				document.write("<tr>");
 				document.write("<td class=\"genTitle\">");
 				document.write("<div class=\"rotate genTitle\">" + getGenTitle(g) + "</div>");

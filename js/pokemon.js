@@ -3589,22 +3589,22 @@ var pokemon = [{
 	"type": "Flying",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
+	"img": "http://www.serebii.net/xy/pokemon/479-m.png",
 	"name": "Rotom",
 	"type": "Grass",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
+	"img": "http://www.serebii.net/xy/pokemon/479-h.png",
 	"name": "Rotom",
 	"type": "Fire",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
+	"img": "http://www.serebii.net/xy/pokemon/479-f.png",
 	"name": "Rotom",
 	"type": "Ice",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/479.png",
+	"img": "http://www.serebii.net/xy/pokemon/479-w.png",
 	"name": "Rotom",
 	"type": "Water",
 	"gen": "4"
@@ -5698,4 +5698,783 @@ var pokemon = [{
 	"name": "Kyurem",
 	"type": "Legendary",
 	"gen": "5"
-}];
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/722.png",
+	"name": "Rowlet",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/722.png",
+	"name": "Rowlet",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/723.png",
+	"name": "Dartrix",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/723.png",
+	"name": "Dartrix",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/724.png",
+	"name": "Decidueye",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/724.png",
+	"name": "Decidueye",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/725.png",
+	"name": "Litten",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/726.png",
+	"name": "Torracat",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/727.png",
+	"name": "Incineroar",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/727.png",
+	"name": "Incineroar",
+	"type": "Dark",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/728.png",
+	"name": "Popplio",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/729.png",
+	"name": "Brionne",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/730.png",
+	"name": "Primarina",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/730.png",
+	"name": "Primarina",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/731.png",
+	"name": "Pikipek",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/731.png",
+	"name": "Pikipek",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/732.png",
+	"name": "Trumbeak",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/732.png",
+	"name": "Trumbeak",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/733.png",
+	"name": "Toucannon",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/733.png",
+	"name": "Toucannon",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/734.png",
+	"name": "Yungoos",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/735.png",
+	"name": "Gumshoos",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/736.png",
+	"name": "Grubbin",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/737.png",
+	"name": "Charjabug",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/737.png",
+	"name": "Charjabug",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/738.png",
+	"name": "Vikavolt",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/738.png",
+	"name": "Vikavolt",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/739.png",
+	"name": "Crabrawler",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/740.png",
+	"name": "Crabominable",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/740.png",
+	"name": "Crabominable",
+	"type": "Ice",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741.png",
+	"name": "Oricorio",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741.png",
+	"name": "Oricorio",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-p.png",
+	"name": "Oricorio",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-p.png",
+	"name": "Oricorio",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-pau.png",
+	"name": "Oricorio",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-pau.png",
+	"name": "Oricorio",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-s.png",
+	"name": "Oricorio",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/741-s.png",
+	"name": "Oricorio",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/742.png",
+	"name": "Cutiefly",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/742.png",
+	"name": "Cutiefly",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/743.png",
+	"name": "Ribombee",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/743.png",
+	"name": "Ribombee",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/744.png",
+	"name": "Rockruff",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/745.png",
+	"name": "Lycanroc",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/745-m.png",
+	"name": "Lycanroc",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/746.png",
+	"name": "Wishiwashi",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/746-s.png",
+	"name": "Wishiwashi",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/747.png",
+	"name": "Mareanie",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/747.png",
+	"name": "Mareanie",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/748.png",
+	"name": "Toxapex",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/748.png",
+	"name": "Toxapex",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/749.png",
+	"name": "Mudbray",
+	"type": "Ground",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/750.png",
+	"name": "Mudsdale",
+	"type": "Ground",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/751.png",
+	"name": "Dewpider",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/751.png",
+	"name": "Dewpider",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/752.png",
+	"name": "Araquanid",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/752.png",
+	"name": "Araquanid",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/753.png",
+	"name": "Fomantis",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/754.png",
+	"name": "Lurantis",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/755.png",
+	"name": "Morelull",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/755.png",
+	"name": "Morelull",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/756.png",
+	"name": "Shiinotic",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/756.png",
+	"name": "Shiinotic",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/757.png",
+	"name": "Salandit",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/757.png",
+	"name": "Salandit",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/758.png",
+	"name": "Salazzle",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/758.png",
+	"name": "Salazzle",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/759.png",
+	"name": "Stufful",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/759.png",
+	"name": "Stufful",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/760.png",
+	"name": "Bewear",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/760.png",
+	"name": "Bewear",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/761.png",
+	"name": "Bounsweet",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/762.png",
+	"name": "Steenee",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/763.png",
+	"name": "Tsareena",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/764.png",
+	"name": "Comfey",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/765.png",
+	"name": "Oranguru",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/766.png",
+	"name": "Passimian",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/767.png",
+	"name": "Wimpod",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/767.png",
+	"name": "Wimpod",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/768.png",
+	"name": "Golisopod",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/768.png",
+	"name": "Golisopod",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/769.png",
+	"name": "Sandygast",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/769.png",
+	"name": "Sandygast",
+	"type": "Ground",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/770.png",
+	"name": "Palossand",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/770.png",
+	"name": "Palossand",
+	"type": "Ground",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/771.png",
+	"name": "Pyukumuku",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/772.png",
+	"name": "Type: Null",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/773.png",
+	"name": "Silvally",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/774.png",
+	"name": "Minior",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/775.png",
+	"name": "Komala",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/776.png",
+	"name": "Turtonator",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/776.png",
+	"name": "Turtonator",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/777.png",
+	"name": "Togedemaru",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/777.png",
+	"name": "Togedemaru",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/778.png",
+	"name": "Mimikyu",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/778.png",
+	"name": "Mimikyu",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/779.png",
+	"name": "Bruxish",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/779.png",
+	"name": "Bruxish",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/780.png",
+	"name": "Drampa",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/780.png",
+	"name": "Drampa",
+	"type": "Normal",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/781.png",
+	"name": "Dhelmise",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/781.png",
+	"name": "Dhelmise",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/782.png",
+	"name": "Jangmo-o",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/783.png",
+	"name": "Hakamo-o",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/783.png",
+	"name": "Hakamo-o",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/784.png",
+	"name": "Kommo-o",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/784.png",
+	"name": "Kommo-o",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/785.png",
+	"name": "Tapu Koko",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/785.png",
+	"name": "Tapu Koko",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/785.png",
+	"name": "Tapu Koko",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/786.png",
+	"name": "Tapu Lele",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/786.png",
+	"name": "Tapu Lele",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/786.png",
+	"name": "Tapu Lele",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/787.png",
+	"name": "Tapu Bulu",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/787.png",
+	"name": "Tapu Bulu",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/787.png",
+	"name": "Tapu Bulu",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/788.png",
+	"name": "Tapu Fini",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/788.png",
+	"name": "Tapu Fini",
+	"type": "Water",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/788.png",
+	"name": "Tapu Fini",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/789.png",
+	"name": "Cosmog",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/790.png",
+	"name": "Cosmoem",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/791.png",
+	"name": "Solgaleo",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/791.png",
+	"name": "Solgaleo",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/792.png",
+	"name": "Lunala",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/792.png",
+	"name": "Lunala",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/793.png",
+	"name": "Nihilego",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/793.png",
+	"name": "Nihilego",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/793.png",
+	"name": "Nihilego",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/794.png",
+	"name": "Buzzwole",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/794.png",
+	"name": "Buzzwole",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/794.png",
+	"name": "Buzzwole",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/795.png",
+	"name": "Pheromosa",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/795.png",
+	"name": "Pheromosa",
+	"type": "Bug",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/795.png",
+	"name": "Pheromosa",
+	"type": "Fighting",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/796.png",
+	"name": "Xurkitree",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/796.png",
+	"name": "Xurkitree",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/797.png",
+	"name": "Celesteela",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/797.png",
+	"name": "Celesteela",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/797.png",
+	"name": "Celesteela",
+	"type": "Flying",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/798.png",
+	"name": "Kartana",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/798.png",
+	"name": "Kartana",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/798.png",
+	"name": "Kartana",
+	"type": "Grass",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/799.png",
+	"name": "Guzzlord",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/799.png",
+	"name": "Guzzlord",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/799.png",
+	"name": "Guzzlord",
+	"type": "Dark",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/800.png",
+	"name": "Necrozma",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/800.png",
+	"name": "Necrozma",
+	"type": "Psychic",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/801.png",
+	"name": "Magearna",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/801.png",
+	"name": "Magearna",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/801.png",
+	"name": "Magearna",
+	"type": "Fairy",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/802.png",
+	"name": "Marshadow",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/802.png",
+	"name": "Marshadow",
+	"type": "Legendary",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/802.png",
+	"name": "Marshadow",
+	"type": "Fighting",
+	"gen": "7"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+];
