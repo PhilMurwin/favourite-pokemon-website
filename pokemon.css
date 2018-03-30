@@ -1,16 +1,73 @@
 body {
-	background-image: url("./background.png");
-	background-repeat: no-repeat;
+	font-family: "Lucida Console", Monaco, monospace;
 }
+
+table {
+	#margin-left: 12px;
+	#border-collapse: collapse;
+	#table-layout: fixed;
+}
+
 td {
 	height: 95px;
 	width: 95px;
 	padding: 0px;
 }
+
 img {
-	height: 92px;
-	width: 92px;
+	height: 90px;
+	width: 90px;
+	display: block;
 }
+
+#choosediv {
+	text-align: center;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 50pt;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.credit {
+	font-weight: bold;
+	font-size: 9pt;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.author {
+	display: inline-block;
+	width: 30%;
+}
+
+.templateAuthor {
+	display: inline-block;
+	width: 30%;
+}
+
+.filledBy {
+	display: inline-block;
+	width: 30%;
+}
+
+.round {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* future proofing */
+	-khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+
+.rotate {
+	-webkit-transform: rotate(-90deg); /* Safari */
+	-moz-transform: rotate(-90deg); /* Firefox */
+	-ms-transform: rotate(-90deg); /* IE */
+	-o-transform: rotate(-90deg); /* Opera */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* Internet Explorer */
+}
+
 .secret {
 	height: 92px;
 	width: 92px;
@@ -18,15 +75,52 @@ img {
 	border: none !important;
 	font-size: 0;
 }
-table {
-	margin-top: 96px;
-	margin-left: 12px;
-	border-collapse: collapse;
-	table-layout: fixed;
-}
-img {
-	display: block
-}
-div {
+
+.typeHeader {
+	height: auto;
 	text-align: center;
+	font-weight: bold;
+	font-size: 14pt;
 }
+
+.genTitle {
+	margin-top: 40px;
+	width: 1em;
+	white-space: nowrap;
+	font-weight: bold;
+	font-size: 14pt;
+}
+
+.btnChoose {
+	border: 1px solid black;
+	width: 110px;
+	height: 110px;
+	display: inline-block;
+	text-align: center;
+	background-color: #F2F2F6;
+}
+
+.btnChoose:hover{
+	background-color: #D5D4E2;
+}
+
+.Bug { background-color: #CAD579; }
+.Dark { background-color: #A89A91; }
+.Dragon { background-color: #A986FA; }
+.Electric { background-color: #FAE282; }
+.Fairy { background-color: #F5C1CD; }
+.Fighting { background-color: #DA827E; }
+.Fire { background-color: #F6B283; }
+.Flying { background-color: #CABCF7; }
+.Ghost { background-color: #A99AC1; }
+.Grass { background-color: #AEDD95; }
+.Ground { background-color: #EDD9A4; }
+.Ice { background-color: #C1E8E7; }
+.Normal { background-color: #CACAAE; }
+.Poison { background-color: #C68CC6; }
+.Psychic { background-color: #FA9AB6; }
+.Rock { background-color: #D4C687; }
+.Steel { background-color: #D5D4E2; }
+.Water { background-color: #A3BCF5; }
+.Legendary{ background-color: #A5C6BD; }
+.All { background-color: #84878C; }
