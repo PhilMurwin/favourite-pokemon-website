@@ -9,14 +9,14 @@ table {
 }
 
 td {
-	height: 95px;
-	width: 95px;
+	height: 85px;
+	width: 85px;
 	padding: 0px;
 }
 
 img {
-	height: 90px;
-	width: 90px;
+	height: 80px;
+	width: 80px;
 	display: block;
 }
 
@@ -69,8 +69,8 @@ img {
 }
 
 .secret {
-	height: 92px;
-	width: 92px;
+	height: 82px;
+	width: 82px;
 	background: transparent;
 	border: none !important;
 	font-size: 0;
