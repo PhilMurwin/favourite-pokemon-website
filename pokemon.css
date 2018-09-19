@@ -80,7 +80,7 @@ img {
 	height: auto;
 	text-align: center;
 	font-weight: bold;
-	font-size: 14pt;
+	font-size: 12pt;
 }
 
 .genTitle {
@@ -89,6 +89,16 @@ img {
 	white-space: nowrap;
 	font-weight: bold;
 	font-size: 14pt;
+}
+
+div.genTitle {
+	float: right;
+	padding-right: 5px;
+}
+
+.genTitleClear
+{
+	clear: both;
 }
 
 .btnChoose {

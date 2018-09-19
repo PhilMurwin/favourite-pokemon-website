@@ -143,7 +143,10 @@
 			for (g = 1; g <= 7; g++) {
 				document.write("<tr>");
 				document.write("<td class=\"genTitle\">");
-				document.write("<div class=\"rotate genTitle\">" + getGenTitle(g) + "</div>");
+				document.write("<div class=\"genTitle\">");
+				document.write("<div class=\"rotate\">" + getGenTitle(g) + "</div>");
+				document.write("<div class=\"genTitleClear\"></div>");
+				document.write("</div>");
 				document.write("</td>");
 
 				for (t = 0; t < types.length; t++) {
