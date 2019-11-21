@@ -5,6 +5,7 @@
 		<meta charset="UTF-8">
 		<meta name="google" content="notranslate">
 		<meta http-equiv="Content-Language" content="en">
+		<title>Fav Pokemon of Each Gen and Type</title>
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="pokemon.css" >
 		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
@@ -15,7 +16,7 @@
 		<script type="text/javascript" src="js/type.js"></script>
 		<script type="text/javascript" src="js/pokemon.js"></script>
 
-		<script type='text/javascript'>
+		<script type="text/javascript">
 			function fillList(gen, type, id) {
 				//Build Pokemon Choose List
 				var chooseList = [];
@@ -103,6 +104,7 @@
 					case 5: genTitle += "V"; break;
 					case 6: genTitle += "VI"; break;
 					case 7: genTitle += "VII"; break;
+					case 8: genTitle += "8"; break;
 				}
 
 				return genTitle;
@@ -140,7 +142,7 @@
 			}
 			document.write("</tr>");
 
-			for (g = 1; g <= 7; g++) {
+			for (g = 1; g <= 8; g++) {
 				document.write("<tr>");
 				document.write("<td class=\"genTitle\">");
 				document.write("<div class=\"genTitle\">");

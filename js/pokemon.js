@@ -3054,22 +3054,12 @@ var pokemon = [{
 	"type": "Grass",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/413.png",
-	"name": "Wormadam",
-	"type": "Bug",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/413.png",
+	"img": "http://www.serebii.net/xy/pokemon/413-c.png",
 	"name": "Wormadam",
 	"type": "Ground",
 	"gen": "4"
 }, {
-	"img": "http://www.serebii.net/xy/pokemon/413.png",
-	"name": "Wormadam",
-	"type": "Bug",
-	"gen": "4"
-}, {
-	"img": "http://www.serebii.net/xy/pokemon/413.png",
+	"img": "http://www.serebii.net/xy/pokemon/413-s.png",
 	"name": "Wormadam",
 	"type": "Steel",
 	"gen": "4"
@@ -6463,18 +6453,606 @@ var pokemon = [{
 	"name": "Marshadow",
 	"type": "Fighting",
 	"gen": "7"
-}
-
-
-
-
-
-
-
-
-
-
-
-
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/810.png",
+	"name": "Grookey",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/811.png",
+	"name": "Thwackey",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/812.png",
+	"name": "Rillaboom",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/813.png",
+	"name": "Scorbunny",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/814.png",
+	"name": "Raboot",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/815.png",
+	"name": "Cinderace",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/816.png",
+	"name": "Sobble",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/817.png",
+	"name": "Drizzile",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/818.png",
+	"name": "Inteleon",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/819.png",
+	"name": "Skwovet",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/820.png",
+	"name": "Greedent",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/821.png",
+	"name": "Rookidee",
+	"type": "Flying",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/822.png",
+	"name": "Corvisquire",
+	"type": "Flying",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/823.png",
+	"name": "Corviknight",
+	"type": "Flying",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/823.png",
+	"name": "Corviknight",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/824.png",
+	"name": "Blipbug",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/825.png",
+	"name": "Dottler",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/825.png",
+	"name": "Dottler",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/826.png",
+	"name": "Orbeetle",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/826.png",
+	"name": "Orbeetle",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/827.png",
+	"name": "Nickit",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/828.png",
+	"name": "Thievul",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/829.png",
+	"name": "Gossifleur",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/830.png",
+	"name": "Eldegoss",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/831.png",
+	"name": "Wooloo",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/832.png",
+	"name": "Dubwool",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/833.png",
+	"name": "Chewtle",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/834.png",
+	"name": "Drednaw",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/834.png",
+	"name": "Drednaw",
+	"type": "Rock",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/835.png",
+	"name": "Yamper",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/836.png",
+	"name": "Boltund",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/837.png",
+	"name": "Rolycoly",
+	"type": "Rock",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/838.png",
+	"name": "Carkol",
+	"type": "Rock",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/838.png",
+	"name": "Carkol",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/839.png",
+	"name": "Coalossal",
+	"type": "Rock",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/839.png",
+	"name": "Coalossal",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/840.png",
+	"name": "Applin",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/840.png",
+	"name": "Applin",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/841.png",
+	"name": "Flapple",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/841.png",
+	"name": "Flapple",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/842.png",
+	"name": "Appletun",
+	"type": "Grass",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/842.png",
+	"name": "Appletun",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/843.png",
+	"name": "Silicobra",
+	"type": "Ground",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/844.png",
+	"name": "Sandaconda",
+	"type": "Ground",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/845.png",
+	"name": "Cramorant",
+	"type": "Flying",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/845.png",
+	"name": "Cramorant",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/846.png",
+	"name": "Arrokuda",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/847.png",
+	"name": "Barraskewda",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/848.png",
+	"name": "Toxel",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/848.png",
+	"name": "Toxel",
+	"type": "Poison",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/849.png",
+	"name": "Toxtricity",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/849.png",
+	"name": "Toxtricity",
+	"type": "Poison",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/850.png",
+	"name": "Sizzlipede",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/850.png",
+	"name": "Sizzlipede",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/851.png",
+	"name": "Centiskorch",
+	"type": "Fire",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/851.png",
+	"name": "Centiskorch",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/852.png",
+	"name": "Clobbopus",
+	"type": "Fighting",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/853.png",
+	"name": "Grapploct",
+	"type": "Fighting",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/854.png",
+	"name": "Sinistea",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/855.png",
+	"name": "Polteageist",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/856.png",
+	"name": "Hatenna",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/857.png",
+	"name": "Hattrem",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/858.png",
+	"name": "Hatterene",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/858.png",
+	"name": "Hatterene",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/859.png",
+	"name": "Impidimp",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/859.png",
+	"name": "Impidimp",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/860.png",
+	"name": "Morgrem",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/860.png",
+	"name": "Morgrem",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/861.png",
+	"name": "Grimmsnarl",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/861.png",
+	"name": "Grimmsnarl",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/862.png",
+	"name": "Obstagoon",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/862.png",
+	"name": "Obstagoon",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/863.png",
+	"name": "Perrserker",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/864.png",
+	"name": "Cursola",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/865.png",
+	"name": "Sirfetch",
+	"type": "Fighting",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/866.png",
+	"name": "Mr. Rime",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/866.png",
+	"name": "Mr. Rime",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/867.png",
+	"name": "Runerigus",
+	"type": "Ground",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/867.png",
+	"name": "Runerigus",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/868.png",
+	"name": "Milcery",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/869.png",
+	"name": "Alcremie",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/870.png",
+	"name": "Falinks",
+	"type": "Fighting",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/871.png",
+	"name": "Pincurchin",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/872.png",
+	"name": "Snom",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/872.png",
+	"name": "Snom",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/873.png",
+	"name": "Frosmoth",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/873.png",
+	"name": "Frosmoth",
+	"type": "Bug",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/874.png",
+	"name": "Stonjourner",
+	"type": "Rock",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/875.png",
+	"name": "Eiscue",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/876.png",
+	"name": "Indeedee",
+	"type": "Psychic",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/876.png",
+	"name": "Indeedee",
+	"type": "Normal",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/877.png",
+	"name": "Morpeko",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/877.png",
+	"name": "Morpeko",
+	"type": "Dark",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/878.png",
+	"name": "Cufant",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/879.png",
+	"name": "Copperajah",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/880.png",
+	"name": "Dracozolt",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/880.png",
+	"name": "Dracozolt",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/881.png",
+	"name": "Arctozolt",
+	"type": "Electric",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/881.png",
+	"name": "Arctozolt",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/882.png",
+	"name": "Dracovish",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/882.png",
+	"name": "Dracovish",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/883.png",
+	"name": "Arctovish",
+	"type": "Water",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/883.png",
+	"name": "Arctovish",
+	"type": "Ice",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/884.png",
+	"name": "Duraludon",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/884.png",
+	"name": "Duraludon",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/885.png",
+	"name": "Dreepy",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/885.png",
+	"name": "Dreepy",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/886.png",
+	"name": "Drakloak",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/886.png",
+	"name": "Drakloak",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/887.png",
+	"name": "Dragapult",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/887.png",
+	"name": "Dragapult",
+	"type": "Ghost",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/888.png",
+	"name": "Zacian",
+	"type": "Fairy",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/888-c.png",
+	"name": "Zacian",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/888-c.png",
+	"name": "Zacian",
+	"type": "Legendary",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/889.png",
+	"name": "Zamazenta",
+	"type": "Fighting",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/889-c.png",
+	"name": "Zamazenta",
+	"type": "Steel",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/889-c.png",
+	"name": "Zamazenta",
+	"type": "Legendary",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/890.png",
+	"name": "Eternatus",
+	"type": "Poison",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/890.png",
+	"name": "Eternatus",
+	"type": "Dragon",
+	"gen": "8"
+}, {
+	"img": "https://www.serebii.net/swordshield/pokemon/890.png",
+	"name": "Eternatus",
+	"type": "Legendary",
+	"gen": "8"
+	}
 
 ];
