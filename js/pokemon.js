@@ -6454,6 +6454,61 @@ var pokemon = [{
 	"type": "Fighting",
 	"gen": "7"
 }, {
+
+
+	"img": "http://www.serebii.net/sunmoon/pokemon/803.png",
+	"name": "Poipole",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/804.png",
+	"name": "Naganadel",
+	"type": "Poison",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/804.png",
+	"name": "Naganadel",
+	"type": "Dragon",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/805.png",
+	"name": "Stakataka",
+	"type": "Rock",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/805.png",
+	"name": "Stakataka",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/806.png",
+	"name": "Blacephalon",
+	"type": "Fire",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/806.png",
+	"name": "Blacephalon",
+	"type": "Ghost",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/807.png",
+	"name": "Zeraora",
+	"type": "Electric",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/808.png",
+	"name": "Meltan",
+	"type": "Steel",
+	"gen": "7"
+}, {
+	"img": "http://www.serebii.net/sunmoon/pokemon/809.png",
+	"name": "Melmetal",
+	"type": "Steel",
+	"gen": "7"
+}, {
+
+
+
 	"img": "https://www.serebii.net/swordshield/pokemon/810.png",
 	"name": "Grookey",
 	"type": "Grass",
